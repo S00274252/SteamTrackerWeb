@@ -1,0 +1,5 @@
+.topbar{border-bottom:1px solid #ffffff17;background:#0d0a15d9;backdrop-filter:blur(18px)}
+.topinner{display:flex;align-items:center;gap:24px;min-height:82px;flex-wrap:wrap;padding-top:14px;padding-bottom:14px}
+.brand{display:flex;align-items:center;gap:11px;white-space:nowrap;font-weight:800;font-size:23px;letter-spacing:-.06em}.brandmark{display:grid;place-items:center;background:#a471ff;color:#100b1b;width:29px;height:29px;border-radius:50%;font-size:21px}
+.nav{display:flex;gap:3px;flex-wrap:wrap}.nav a,.filter,.period{border:0;background:transparent;color:#b7adc7;border-radius:11px;padding:10px 14px;white-space:nowrap;font-size:14px;font-weight:700}.nav a.active,.filter.active,.period.active{background:#a471ff24;color:#d5b8ff}.nav a:hover,.filter:hover,.period:hover{color:white;background:#ffffff12}
+.header-actions{display:flex;align-items:center;gap:11px;margin-left:auto;flex-wrap:wrap}.search{background:#211a2c;border:1px solid #53435f;border-radius:11px;color:white;padding:11px 14px;min-width:210px;width:min(245px,100%)}.search::placeholder{color:#aba0b9}

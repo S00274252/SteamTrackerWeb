@@ -1,0 +1,7 @@
+.nav a,.btn-link,.text-link,.brand{text-decoration:none;color:inherit}.nav a{color:#b7adc7;border-radius:11px;padding:10px 14px;font-size:14px;font-weight:700;white-space:nowrap}
+.btn-link{display:inline-block;color:#160c25}.hero-copy .btn-link{margin-top:20px}.text-link{color:#c9a5ff}
+.item-card{display:block;width:100%;text-align:left;color:inherit;padding:0}.item-art img{max-height:100%;max-width:100%;object-fit:contain}
+.modal{background:#191421;color:var(--white);border:1px solid #383043;border-radius:17px;padding:24px;min-width:min(380px,90vw)}.modal::backdrop{background:#000a}
+.modal h2{margin-top:0}.modal .rank-table{min-width:0;margin:14px 0}.modal td:first-child{font:inherit;color:var(--muted);text-transform:capitalize}
+.login{max-width:420px;margin:60px auto;display:grid;gap:16px}.empty .btn-link{margin-top:12px}.filter:disabled,.primary:disabled{opacity:.6}
+.avatar{object-fit:cover}.profile-hero .btn-link{margin-left:auto}
