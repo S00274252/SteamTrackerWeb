@@ -1,8 +1,8 @@
-import { USE_MOCK, API_URL } from '../config';
+import { MANUAL_LOGIN, API_URL } from '../config';
 import { http } from './http';
 const KEY = 'steamtrack_session';
 
-export const auth = USE_MOCK ? {
+export const auth = MANUAL_LOGIN ? {
   async session() { try { return JSON.parse(localStorage.getItem(KEY)); } catch { return null; } },
   async login(id) { const u = { steamId: id.trim() }; localStorage.setItem(KEY, JSON.stringify(u)); return u; },
   async logout() { localStorage.removeItem(KEY); },
